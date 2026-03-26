@@ -1,0 +1,6 @@
+{
+    "LocalToScript": true,
+    "OpenOutput": false,
+    "Source": "../demo/index.php",
+    "Destination": "output.html"
+}
