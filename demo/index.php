@@ -1,5 +1,7 @@
 <?php
-// Simple example site index for the PHP Static Site Script demo
+// ensure PHP uses the system timezone before formatting the date
+date_default_timezone_set(date_default_timezone_get());
+$day = date('l');
 ?>
 <!doctype html>
   <html lang="en">
@@ -11,6 +13,7 @@
   <body>
     <header>
       <h1>Example Site</h1>
+      <p>Today is <?php echo htmlspecialchars($day); ?></p>
     </header>
     <main>
       <section>
